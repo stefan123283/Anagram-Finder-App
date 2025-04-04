@@ -1,6 +1,6 @@
-# What the project does?
+# What the program does?
 
-The application processes a text file with a list of words then groups the words that are anagrams and prints them on the same line in a new text file.
+The program processes a text file with a list of words, groups the anagrams and prints them on the same line in a new text file.
 
 # What is an anagram?
 
@@ -10,10 +10,11 @@ An anagram is a word or phrase formed by rearranging the letters of a different 
 
 # How to use the project?
 
-1. Clone the git repository.
+1. Clone the git repository in the desired location.
 
-2. You can provide a list of words to be grouped into anagrams in the sample.txt file located in the files folder, or you can use the one that is already provided.
+2. Open the downloaded folder using your preferred Java IDE.
 
-3. Run the Main.java class. A file named result.txt should appear in the files folder. Open it and you will see the anagrams printed on the same line.
+3.  Provide a list of words that should be grouped into anagrams in the **___sample.txt___** file located in the _**files**_ folder, or you can use the one already provided. **Note** that only one word should be added per line, otherwise the program will not work as expected.
 
-Good luck!
+4. Run the Main.java class. A file named _**result.txt**_ should appear in the _**files**_ folder. Open it, and you will see the anagrams printed on the same line.
+

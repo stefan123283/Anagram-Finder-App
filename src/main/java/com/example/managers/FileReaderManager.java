@@ -16,7 +16,7 @@ public class FileReaderManager {
             bufferedReader = new BufferedReader(new FileReader(filePath));
             String word;
             while ((word = bufferedReader.readLine()) != null) {
-                wordsList.add(word);
+                wordsList.add(word.toLowerCase());
             }
 
         } catch (IOException e) {
